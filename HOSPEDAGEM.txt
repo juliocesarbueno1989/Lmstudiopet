@@ -1,0 +1,22 @@
+COMO PUBLICAR O SITE (LM Studio Pet)
+
+A) GitHub Pages (gratuito para repositorios publicos)
+1. Em github.com crie um repositorio PUBLICO (ex.: lmstudiopet) e envie os arquivos desta pasta (index.html, css, js, assets) na raiz.
+   - Pelo site: botao "Add file" > "Upload files" > arraste tudo > "Commit changes".
+2. No repositorio: Settings > Pages > Source: "Deploy from a branch" > Branch: main, pasta "/ (root)" > Save.
+3. Em 1 a 2 minutos o site abre em https://SEUUSUARIO.github.io/lmstudiopet/
+4. Dominio proprio (opcional): em Settings > Pages > Custom domain, e aponte o DNS do dominio para o GitHub.
+Atencao: os termos do GitHub Pages nao permitem usar o servico gratuito para rodar um negocio/loja online. Para sites de clientes, prefira Cloudflare Pages (gratuito, comercial permitido).
+
+B) Pelo SPCK Editor (celular)
+1. Crie o repositorio vazio no GitHub (passo A1) e gere um Personal Access Token (GitHub > Settings > Developer settings > Personal access tokens), com permissao de escrita em repositorios.
+2. No SPCK: aba Projects > menu > "Add Git Token": cole o token e informe usuario e e-mail.
+3. Abra/importe esta pasta no SPCK, monte o repositorio do GitHub (clone) e copie os arquivos para dentro.
+4. Aba Files > menu > "Push Changes": escreva a mensagem do commit e envie.
+5. Depois ative o GitHub Pages (passo A2).
+
+C) CodePen (para testar/mostrar, nao e hospedagem definitiva)
+Use a pasta "codepen":
+1. Novo Pen. Em Settings > HTML > "Stuff for <head>" cole o conteudo de 0-head-stuff.html.
+2. Cole 1-html.html no painel HTML, 2-css.css no CSS e 3-js.js no JS.
+(As imagens ja estao embutidas no 1-html.html para funcionar no CodePen.)

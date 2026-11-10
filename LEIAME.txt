@@ -1,0 +1,11 @@
+LM Studio Pet - site de scroll em camera lenta
+Abra index.html no navegador (ou no SPCK Editor).
+index.html      -> textos e secoes (titulo, descricao, icones)
+css/style.css   -> fontes (Cormorant Garamond + Jost, via Google Fonts, precisa de internet), cores (variaveis no topo), fundo agua, bolhas, animacoes
+assets/logo.webp -> troque pelo logo (WebP ou PNG com fundo transparente; se mudar o formato, altere o nome em index.html)
+js/script.js    -> INTRO_SEG (logo, 3 s), TOPICO_SEG (por topico), QTD_PARTICULAS; avanca sozinho e CONGELA no ultimo topico (agendamento/pedido)
+assets/pet1-4.jpg -> fotos dos pets nas avaliacoes (trocar/adicionar em index.html, secao 05)
+Textos baseados no Google (avaliacoes e servicos) e no Instagram @lmstudiopet.
+Tempo por topico: atributo data-seg em cada <section> do index.html (segundos); sem ele vale TOPICO_SEG do js/script.js.
+Depoimentos: edite os cartoes <article class="c"> no index.html (foto assets/pet1-4.jpg, nome e texto).
+Servicos conforme o panfleto do estudio. Endereco (Rua Amor Perfeito 35, Jardim Flor de Maio) esta somente como texto no ultimo topico; o Instagram e o WhatsApp sao links.
